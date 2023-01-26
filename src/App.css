@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+*{
+  padding: 0;
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: bisque;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.frontinterface{
+  height: 100vh;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.flag{
+  height: 75vh;
+  width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.saffron
+{
+  background-color: #FF671F;
+  height: 25vh;
+  animation: flagColour;
+  animation-duration: 2s;
+}
+.white{
+height: 25vh;
+animation: flagColour;
+animation-duration: 2s;
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.white img{
+  height: 24vh;
+  animation:  spin 3s 2s linear infinite;
+  cursor: pointer;
+}
+@keyframes spin {
+  0% {
+    /* width: 24vmin; */
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    /* width: 24vmin; */
+    transform:  rotate(360deg);
+  }
+}
+.green{
+  background-color: #046A38;
+  height: 25vh;
+  animation: flagColour;
+  animation-duration: 2s;
+}
+.text h1{
+  text-align: center;
+  color: gray;
+  font-weight: bolder;
+  text-transform: uppercase;
+  caret-color: transparent;
+  position:absolute;
+  top: 2%;
+  display: block;
+  width: 100%;
+  font-family: 'Aboreto', cursive;
+  animation: ashokChakra;
+  animation-duration: 5s;
+  font-size: 1.6rem;
+}
+.subhead{
+  color: darkcyan;
+ animation: ashokChakra;
+ animation-duration: 5s;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+@keyframes flagColour {
+  from{
+    width: 0%;
+  }
+  to{
+    width: 100%;
+  }
+}
+@keyframes ashokChakra{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+.wish{
+  text-align: center;
+  color: blueviolet;
+  caret-color: transparent;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  animation: ashokChakra;
+  animation-duration: 5s;
+  padding-top: 15px;
+}
+@media only screen and (max-width: 288px) {
+  .saffron,.white,.green{
+    height: 20vh;
+  }
+  .white img{
+    height: 19vh;
+  }
+  .subhead{
+    font-size: 0.8rem;
   }
 }

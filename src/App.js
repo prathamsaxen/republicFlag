@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
+import AshokChakra from "../src/Assets/2.png";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="frontinterface">
+      <div className="text"><h1>74th Republic Day!<br/><span className='subhead'>
+      शौर्यम..दक्षम..युध्धेय, बलिदान परम धर्मा</span></h1></div>
+        <div className="flag">
+          <div className="saffron"></div>
+          <div className="white">
+            <img src={AshokChakra} alt="Error in laoding Chakra" />
+          </div>
+          <div className="green"></div>
+          <div className="wish">
+            <h1>Happy Republic Day Indians!</h1>
+            <p>Best Wishes From Saxena's Group</p>
+          </div>
+        </div>
+        
+      </div>
     </div>
   );
 }
