@@ -111,3 +111,11 @@ align-items: center;
     font-size: 0.8rem;
   }
 }
+@media only screen and (max-width: 480px) {
+ .text h1{
+  font-size: 1.2rem;
+ }
+  .subhead{
+    font-size: 1rem;
+  }
+}
