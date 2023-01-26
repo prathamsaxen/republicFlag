@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/republicFlag/static/css/main.cc224509.css",
+    "main.css": "/republicFlag/static/css/main.efc71d5e.css",
     "main.js": "/republicFlag/static/js/main.21db8fce.js",
     "static/js/787.04f30d6f.chunk.js": "/republicFlag/static/js/787.04f30d6f.chunk.js",
     "static/media/2.png": "/republicFlag/static/media/2.489f7902d31f5b551930.png",
     "index.html": "/republicFlag/index.html",
-    "main.cc224509.css.map": "/republicFlag/static/css/main.cc224509.css.map",
+    "main.efc71d5e.css.map": "/republicFlag/static/css/main.efc71d5e.css.map",
     "main.21db8fce.js.map": "/republicFlag/static/js/main.21db8fce.js.map",
     "787.04f30d6f.chunk.js.map": "/republicFlag/static/js/787.04f30d6f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc224509.css",
+    "static/css/main.efc71d5e.css",
     "static/js/main.21db8fce.js"
   ]
 }
