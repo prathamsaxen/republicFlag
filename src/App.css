@@ -118,6 +118,18 @@ align-items: center;
   .subhead{
     font-size: 1rem;
   }
+  .saffron,.white,.green{
+    height: 17vh;
+  }
+  .white img{
+    height: 16vh;
+  }
+  .saffron{
+    margin-top: 3vh;
+  }
+  .green{
+    margin-bottom: 3vh;
+  }
 }
 @media only screen and (max-width: 768px) {
   .text h1{
